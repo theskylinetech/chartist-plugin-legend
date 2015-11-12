@@ -51,7 +51,7 @@
                 }
 
                 var $chart = $(chart.container),
-                    legendClass = chart instanceof Chartist.Pie ? 'ct-legend-inside' : '',
+                    legendClass = chart instanceof Chartist.Pie ? 'ct-legend-inside' : '';
 
                 if ( $legend !== null ) {
                   $legend.remove();
