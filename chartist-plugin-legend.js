@@ -21,6 +21,7 @@
     (function (Chartist, $) {
         'use strict';
 
+        var $legend = null;
         var defaultOptions = {
             className: '',
             legendNames: false,
@@ -51,7 +52,12 @@
 
                 var $chart = $(chart.container),
                     legendClass = chart instanceof Chartist.Pie ? 'ct-legend-inside' : '',
-                    $legend = $chart
+
+                if ( $legend !== null ) {
+                  $legend.remove();
+                }
+
+                $legend = $chart
                     .append('<ul class="ct-legend"></ul>')
                     .find('.ct-legend')
                     .addClass(legendClass)

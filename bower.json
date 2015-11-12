@@ -1,7 +1,10 @@
 {
   "name": "chartist-plugin-legend",
   "description": "Legend plugin for Chartist.js.",
-  "main": "chartist-plugin-legend.js",
+  "main": [
+    "chartist-plugin-legend.js",
+    "chartist-plugin-legend.scss"
+  ],
   "authors": [
     "Kees Kluskens <kees@codeyellow.nl>",
     "Chawalit Limsowan <chawalit@pinacono.com>"
