@@ -10,7 +10,7 @@
     "Chawalit Limsowan <chawalit@pinacono.com>"
   ],
   "dependencies": {
-    "chartist": "~0.9.5"
+    "chartist": "~0.9.4"
   },
   "license": "MIT",
   "keywords": [
