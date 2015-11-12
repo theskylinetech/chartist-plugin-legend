@@ -2,6 +2,8 @@
 
 Implements a legend for [Chartist](https://github.com/gionkunz/chartist-js) charts.
 
+This fork is intend to maintain the bower.json package information. You might need to check the original version at https://github.com/CodeYellowBV/chartist-plugin-legend
+
 ## Install
 
 As styles are very different with each project, no CSS is included. You can copy paste this to use as base:
